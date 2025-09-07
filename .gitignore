@@ -1,29 +1,36 @@
 # ====================
 # Admin Folder Rules
 # ====================
-admin/dist/css/*
-!admin/css/overlay.css
-!admin/css/dashboard.css
+admin/dist/css/alt/
 admin/dist/img/
 admin/dist/js/
-plugins/
+admin/plugins/
+
+# ====================
+# Assets Folder Rules
+# ====================
+assets/*
+!assets/css/
+!assets/js/
+!assets/scripts/
+!assets/server/
 
 # ====================
 # Other Folder Rules
 # ====================
-assets/*
-!assets/js/
-!assets/css/
-!assets/scripts/
-!assets/server/
 ads/
 attachments/
 cgi-bin/
 courses/
-eLearning/assets/*
-!eLearning/assets/css/overlay.css
-!eLearning/assets/js/
-!eLearning/assets/server/
 tickets/
 uploads/
 vendor/
+
+# ====================
+# eLearning Folder Rules
+# ====================
+eLearning/assets/css/*
+!eLearning/assets/css/colors.css
+!eLearning/assets/css/overlay.css
+!eLearning/assets/css/styles.css
+eLearning/assets/img/
