@@ -1,0 +1,82 @@
+#full-details-overlay, #description-overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 50000;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    display: none;
+    overflow: hidden;
+}
+
+#description-overlay{
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#full-details-overlay iframe{
+    width: 90%;
+    height: 100%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+
+#full-details-overlay iframe img{
+  min-width: 100% !important;
+}
+
+#description-text{
+  width: 90%;
+  height: 90%;
+  overflow-x: hidden;
+  overflow-y: visible;
+  background: white;
+  padding: 50px 20px;
+}
+
+#button-div{
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#button-div button{
+  width: 100px;
+  height: 60%;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  background: green;
+  color: white;
+}
+
+
+#close-view, #close-decsription-view{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  color: red;
+  position: fixed;
+  top: 2%;
+  right: 2%;
+  font-size: 1.2em;
+  cursor: pointer;
+  z-index: 15000;
+}
+

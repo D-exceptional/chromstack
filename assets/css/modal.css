@@ -1,0 +1,105 @@
+.overlay-modal {
+  width: 100%;
+  height: 100%;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100000;
+  background: gray;
+  background: rgba(19, 18, 18, 0.75);
+}
+
+.overlay-content{
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #181d38;
+  /*background-image: url(/assets/img/wallpaper-city-blurred-city-blur-graphy.jpg);
+  background-image: url(/assets/img/city-nighttime-view.jpg);*/
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.counter{
+  width: 100%;
+  height: 90%;
+  color: white;
+  padding: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow-x: hidden;
+  overflow-y: auto;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.counter h1{
+    color: white;
+}
+
+.content-text{
+    font-size: 0.8em !important;
+}
+
+ul{
+    list-style: none;
+    text-align: left !important;
+}
+
+ul li{
+    font-size: 0.8em !important;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.action-button{
+    width: 200px;
+    height: 50px;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    background: #878ba23d;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 10px rgba(192, 192, 192, 0.5); /* Initial glow */
+    animation: glow 1s ease-in-out infinite alternate; /* Animation */
+}
+
+@keyframes glow {
+    from {
+        box-shadow: 0 0 10px rgba(192, 192, 192, 0.5);
+    }
+    to {
+        box-shadow: 0 0 20px rgba(255, 255, 255, 1.0); /* Adjust glow intensity */
+    }
+}
+
+.close {
+  position: fixed;
+  top: 2%;
+  right: 2%;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: white;
+  border: 2px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

@@ -1,0 +1,95 @@
+html, body{
+        overflow-x: hidden !important;
+        font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+    }
+
+    ::-webkit-scrollbar {
+        width: 10px;
+        border-radius: 20px;
+        background: #094e41;
+    }
+
+    .img-fluid {
+        width: 100vw;
+    }
+        #course-description{
+        text-align: left !important;
+        background: transparent;
+        color: #181d38;
+        font-size: 16px;
+        margin: 0;
+        overflow-x: hidden !important;
+        font-weight: 400;
+        padding: 2%;
+    }
+
+    .testimonial-item.text-center img{
+        width: 80px; 
+        height: 80px;
+    }
+
+    .btn.btn-outline-dark.btn-social{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .order-button{
+        background: #181d38;
+        color: #fff;
+        outline: none;
+        border: none;
+        width: 120px;
+        height: 40px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+    }
+
+        .order-button a{
+        color: white;
+        text-decoration: none;
+        }
+
+    /* Extra small devices (phones, 600px and down) */
+    @media only screen and (max-width: 600px) {
+    /* CSS rules for extra small devices */
+        video{
+            width: 90%;
+        }
+    }
+
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 600px) {
+    /* CSS rules for small devices */
+        video{
+            width: 80%;
+        }
+    }
+
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (min-width: 768px) {
+    /* CSS rules for medium devices */
+        video{
+            width: 70%;
+        }
+    }
+
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) {
+    /* CSS rules for large devices */
+        video{
+            width: 60%;
+        }
+    }
+
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+    /* CSS rules for extra large devices */
+        video{
+            width: 50%;
+        }
+    }

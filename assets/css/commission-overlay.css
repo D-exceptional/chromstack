@@ -1,0 +1,142 @@
+ #commission-overlay{
+    width: 100%;
+    height: 45%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 50000;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 30%;
+    left: 50%;
+    overflow: hidden;
+    transition: 0.5s;
+    padding: 2%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+#close-div{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1em;
+    top: 2%;
+    right: 2%;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+#amount-div{
+    width: 90%;
+    height: 30%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    font-size: 1.2em;
+    box-sizing: border-box;
+}
+
+#sales-div {
+    width: 90%;
+    height: 20%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    font-size: 1.2em;
+    box-sizing: border-box;
+}
+
+#range-div{
+    width: 90%;
+    height: 85%;
+    border-radius: 10px;
+    background: white;
+    font-size: 1.2em;
+    padding: 3% 2%;
+}
+
+#range-div input{
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    padding: 0% 1%;
+    position: relative;
+    margin-top: -3% !important;
+}
+
+#range-div p {
+    padding: 0.5%;
+}
+
+#range-div button {
+    width: 40%;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background: rgb(51, 135, 51);
+    color: white;
+    margin-top: 4%;
+}
+
+#info{
+    color: white;
+}
+
+ #commission-overlay b{
+    margin-left: 5px;
+ }
+ 
+  /* Extra small devices (phones, 600px and down) */
+        @media screen and (max-width: 600px) {
+            #commission-overlay
+            {
+                min-width: 100% !important;
+            }
+        }
+        
+        /* Small devices (portrait tablets and large phones, 600px and up) */
+        @media screen and (min-width: 600px) and (max-width: 992px) {
+             #commission-overlay
+            {
+                width: 70% !important;
+            }
+        }
+        
+        /* Medium devices (landscape tablets, 768px and up) */
+        @media screen and (min-width: 768px) {
+             #commission-overlay
+            {
+                width: 50% !important;
+            }
+        }
+        
+        /* Large devices (laptops/desktops, 992px and up) */
+        @media screen and (min-width: 992px) {
+            #commission-overlay
+            {
+                width: 25% !important;
+            }
+        }
+        
+        /* Extra large devices (large laptops and desktops, 1200px and up) 
+        @media only screen and (min-width: 1200px) {
+            .col-lg-3 .col-6 {
+                width: 25% !important;
+                max-width: 25% !important;
+            }
+        }*/

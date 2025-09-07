@@ -1,0 +1,165 @@
+#countdown-overlay{
+ width: 100vw;
+ height: 100vh;
+ margin: 0;
+ padding: 0;
+ font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+ background: rgb(0 0 0 / 84%);
+ /*background: rgba(0, 0, 0, 0.84);*/
+ position: fixed;
+ top: 0;
+ left: 0;
+ z-index: 600000;
+ display: none;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+
+#countdown-overlay-inner{
+ width: 100% !important;
+ height: 100% !important;
+ background: transparent;
+ position: relative;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+
+#countdown-overlay-close{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  color: red;
+  position: fixed;
+  top: 2%;
+  right: 2%;
+  font-size: 1.2em;
+  cursor: pointer;
+  z-index: 15000;
+}
+
+#countdown-overlay-image{
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 2%;
+}
+
+#countdown-overlay-image img{
+  width: 100%;
+  height: 90%;
+  border-radius: 10px;
+}
+
+#countdown-overlay-footer{
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+}
+
+#countdown-overlay-intro{
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 2%;
+  font-size: 2em;
+}
+
+#countdown-overlay-counter{
+   width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 2%;
+}
+
+.counter-rows{
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.counter-number{
+   width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+.counter-text{
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 1em;
+}
+
+  /* Extra small devices (phones, 600px and down) */
+        @media screen and (max-width: 600px) {
+            #countdown-overlay-inner
+            {
+                min-width: 100% !important;
+            }
+        }
+        
+        /* Small devices (portrait tablets and large phones, 600px and up) */
+        @media screen and (min-width: 600px) and (max-width: 992px) {
+             #countdown-overlay-inner
+            {
+                width: 70% !important;
+            }
+        }
+        
+        /* Medium devices (landscape tablets, 768px and up) */
+        @media screen and (min-width: 768px) {
+             #countdown-overlay-inner
+            {
+                width: 50% !important;
+            }
+        }
+        
+        /* Large devices (laptops/desktops, 992px and up) */
+        @media screen and (min-width: 992px) {
+            #countdown-overlay-inner
+            {
+                width: 50% !important;
+            }
+        }
+        
+        /* Extra large devices (large laptops and desktops, 1200px and up) 
+        @media only screen and (min-width: 1200px) {
+            .col-lg-3 .col-6 {
+                width: 25% !important;
+                max-width: 25% !important;
+            }
+        }*/
+
+
+
+
+
+
+
+

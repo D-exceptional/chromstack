@@ -1,0 +1,45 @@
+{
+  "short_name": "Chromstack",
+  "name": "Chromstack",
+  "icons": [
+    {
+      "src": "/assets/img/icons-vector-1.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/assets/img/icons-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/assets/img/icons-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "id": "?source=chromstackpwa",
+  "scope": "/",
+  "start_url": "/index",
+  "background_color": "#181d38",
+  "display": "fullscreen",
+  "display_override": ["fullscreen", "standalone", "minimal-ui", "browser"],
+  "theme_color": "#181d38",
+  "shortcuts": [
+    {
+      "name": "Chromstack",
+      "short_name": "Chromstack",
+      "description": "Redefining the marketing ecosystem",
+      "url": "/index?source=chromstackpwa",
+      "icons": [{ "src": "/assets/img/icons-512.png", "sizes": "512x512" }]
+    },
+    {
+      "name": "Chromstack",
+      "short_name": "Chromstack",
+      "description": "Redefining the marketing ecosystem",
+      "url": "/index?source=chromstackpwa",
+      "icons": [{ "src": "/assets/img/icons-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "description": "Redefining the marketing ecosystem"
+}
