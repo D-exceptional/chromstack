@@ -5,6 +5,13 @@ admin/dist/css/alt/
 admin/dist/img/
 admin/dist/js/
 admin/plugins/
+admin/server/
+admin/pages/server/
+
+# ====================
+# Affiliate Folder Rules
+# ====================
+affiliate/server/
 
 # ====================
 # Assets Folder Rules
@@ -13,7 +20,7 @@ assets/*
 !assets/css/
 !assets/js/
 !assets/scripts/
-!assets/server/
+assets/server/
 
 # ====================
 # Other Folder Rules
@@ -25,6 +32,7 @@ courses/
 tickets/
 uploads/
 vendor/
+database/
 
 # ====================
 # eLearning Folder Rules
@@ -34,3 +42,9 @@ eLearning/assets/css/*
 !eLearning/assets/css/overlay.css
 !eLearning/assets/css/styles.css
 eLearning/assets/img/
+eLearning/assets/server/
+
+# ====================
+# Seller Folder Rules
+# ====================
+seller/server/
